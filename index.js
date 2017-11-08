@@ -1,6 +1,6 @@
 const { forEachField, chainResolvers } = require("graphql-tools");
 
-module.exports = function addDefaultResolverToSchema(schema, defaultResolver) {
+const addDefaultResolverToSchema = function addDefaultResolverToSchema(schema, defaultResolver) {
   forEachField(schema, (field, typeName, fieldName) => {
     if (!field.resolve) {
       field.resolve = defaultResolver;
@@ -8,3 +8,5 @@ module.exports = function addDefaultResolverToSchema(schema, defaultResolver) {
   });
 }
 addDefaultResolverToSchema.addDefaultResolverToSchema = addDefaultResolverToSchema;
+
+module.exports = addDefaultResolverToSchema;
