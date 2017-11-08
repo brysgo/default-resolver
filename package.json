@@ -1,0 +1,18 @@
+{
+  "name": "default-resolver",
+  "version": "0.0.1",
+  "description": "Set a custom default resolver for graphql-js and graphql-tools.",
+  "main": "index.js",
+  "repository": "git@github.com:brysgo/resolvers-with-default.git",
+  "author": "Bryan Goldstein <brysgo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "graphql": "^0.11.7",
+    "jest-cli": "^21.2.1",
+    "lodash": "^4.17.4",
+    "prettier": "^1.8.1"
+  },
+  "dependencies": {
+    "graphql-tools": "^2.7.2"
+  }
+}

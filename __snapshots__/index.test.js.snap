@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`uses resolvers you define, defaults to function you pass 1`] = `
+Object {
+  "data": Object {
+    "posts": Array [
+      Object {
+        "author": Object {
+          "firstName": "newdefault: Tom",
+          "lastName": "Coleman",
+        },
+        "title": "newdefault: Introduction to GraphQL",
+      },
+      Object {
+        "author": Object {
+          "firstName": "newdefault: Sashko",
+          "lastName": "Stubailo",
+        },
+        "title": "newdefault: Welcome to Meteor",
+      },
+      Object {
+        "author": Object {
+          "firstName": "newdefault: Sashko",
+          "lastName": "Stubailo",
+        },
+        "title": "newdefault: Advanced GraphQL",
+      },
+      Object {
+        "author": Object {
+          "firstName": "newdefault: Mikhail",
+          "lastName": "Novikov",
+        },
+        "title": "newdefault: Launchpad is Cool",
+      },
+      Object {
+        "author": Object {
+          "firstName": "newdefault: Bryan",
+          "lastName": "Goldstein",
+        },
+        "title": "newdefault: Mad hacks",
+      },
+    ],
+  },
+}
+`;
